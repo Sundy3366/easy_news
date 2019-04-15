@@ -3,15 +3,8 @@
   "version": "0.0.0",
   "description": "Redux counter example",
   "scripts": {
-<<<<<<< Updated upstream
     "start": "node server.js",
     "test": "set NODE_ENV=test&&mocha --recursive --compilers js:babel-core/register --require ./test/setup.js",
-=======
-    "start": "webpack && concurrently \"npm run webpack:w\" \"npm run gulp\"",
-    "gulp": "gulp",
-    "webpack:w": "webpack -w",
-    "test": "NODE_ENV=test mocha --recursive --compilers js:babel-core/register --require ./test/setup.js",
->>>>>>> Stashed changes
     "test:watch": "npm test -- --watch"
   },
   "repository": {
